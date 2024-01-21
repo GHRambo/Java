@@ -1,3 +1,5 @@
+package PrimeirasAulas;
+
 public class HelloWord {
     public static void main(String[] args) {
         int dadoDoTipoInteiro = 10;
