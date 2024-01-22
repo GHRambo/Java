@@ -18,8 +18,8 @@ public class ContaBancaria {
 
     // sacar
     void sacar(double valor){
-        saldo = saldo - valor;
         if (valor > 0 && valor <= saldo){
+            saldo = saldo - valor;
             System.out.println("Saque de R$" + valor + ". Saldo atual de R$ " + saldo);
         }
     }
