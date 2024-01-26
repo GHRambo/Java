@@ -1,6 +1,6 @@
 package Pessoa;
 
-public class Professor {
+public class Professor  extends Pessoa{
     private double salario;
 
     public double getSalario() {
